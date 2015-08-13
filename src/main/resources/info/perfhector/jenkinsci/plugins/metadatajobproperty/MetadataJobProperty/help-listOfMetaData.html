@@ -7,8 +7,10 @@ def valeur=currentJob.getProperty(MetadataJobProperty.class).find('meta')?.value
   
 Be aware that accessing to currentJob depends on the groovy plugin, you're using:
 
-* currentJob in case of EnvInject plugin 
-* build.project in case of Scriptler
-* build.project in case of Groovy Postbuild
-* ...
+<ul>
+    <li>currentJob in case of EnvInject plugin </li>
+    <li>build.project in case of Scriptler</li>
+    <li>build.project in case of Groovy Postbuild</li>
+    <li>...</li>
+</ul>   
 </div>
