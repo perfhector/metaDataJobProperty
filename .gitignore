@@ -1,3 +1,8 @@
+*~
+*.swp
+*.swo
+target/
+work/
 *.class
 
 # Mobile Tools for Java (J2ME)
