@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  With MetaDataJobProperty plugin, you can insert some metadatas in your project.
+</div>

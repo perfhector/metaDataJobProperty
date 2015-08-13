@@ -1,0 +1,14 @@
+<div>
+  Please enter a key/value for your meta-data. 
+  The data will be accessible in groovy with 
+  <pre>import info.perfhector.jenkinsci.plugins.metadatajobproperty.MetadataJobProperty
+import info.perfhector.jenkinsci.plugins.metadatajobproperty.MetadataJobProperty.MetaData
+def valeur=currentJob.getProperty(MetadataJobProperty.class).find('meta')?.value</pre>
+  
+Be aware that accessing to currentJob depends on the groovy plugin, you're using:
+
+* currentJob in case of EnvInject plugin 
+* build.project in case of Scriptler
+* build.project in case of Groovy Postbuild
+* ...
+</div>

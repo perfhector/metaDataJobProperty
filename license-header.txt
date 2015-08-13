@@ -1,0 +1,14 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}    This file is part of MetaDataJobProperty.
+${licensePrefix}
+${licensePrefix}    MetaDataJobProperty is free software: you can redistribute it and/or modify
+${licensePrefix}    it under the terms of the GNU General Public License as published by
+${licensePrefix}    the Free Software Foundation, either version 3 of the License, or
+${licensePrefix}    (at your option) any later version
+${licensePrefix}    Please consult http://www.gnu.org/licenses/agpl.txt or Licence.txt in this project
+${licensePrefix}    Copyright @ 2015 Perf'Hector,  http://www.perfhector.info Email:94a027eda0c736c132b811136d8ea6c5-1341398@contact.gandi.net
+<#if licenseLast??>
+${licenseLast}
+</#if>
